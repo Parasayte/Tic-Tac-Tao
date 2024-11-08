@@ -643,6 +643,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Tic-Tac-Toe";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing_1);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.guna2CustomGradientPanel2.PerformLayout();

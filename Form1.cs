@@ -190,8 +190,7 @@ namespace Tic_Tac_Tao
                 wining.ForeColor = Color.DarkGray;
             }
         }
-
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        private void Form1_FormClosing_1(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }
