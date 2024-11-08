@@ -1,0 +1,12 @@
+C:\Users\Saad\source\repos\Tic-Tac-Tao\bin\Debug\Tic-Tac-Tao.exe.config
+C:\Users\Saad\source\repos\Tic-Tac-Tao\bin\Debug\Tic-Tac-Tao.exe
+C:\Users\Saad\source\repos\Tic-Tac-Tao\bin\Debug\Tic-Tac-Tao.pdb
+C:\Users\Saad\source\repos\Tic-Tac-Tao\bin\Debug\Guna.UI2.dll
+C:\Users\Saad\source\repos\Tic-Tac-Tao\obj\Debug\Tic-Tac-Tao.csproj.AssemblyReference.cache
+C:\Users\Saad\source\repos\Tic-Tac-Tao\obj\Debug\Tic_Tac_Tao.Form1.resources
+C:\Users\Saad\source\repos\Tic-Tac-Tao\obj\Debug\Tic_Tac_Tao.Properties.Resources.resources
+C:\Users\Saad\source\repos\Tic-Tac-Tao\obj\Debug\Tic-Tac-Tao.csproj.GenerateResource.cache
+C:\Users\Saad\source\repos\Tic-Tac-Tao\obj\Debug\Tic-Tac-Tao.csproj.CoreCompileInputs.cache
+C:\Users\Saad\source\repos\Tic-Tac-Tao\obj\Debug\Tic-Tac-.DF422F84.Up2Date
+C:\Users\Saad\source\repos\Tic-Tac-Tao\obj\Debug\Tic-Tac-Tao.exe
+C:\Users\Saad\source\repos\Tic-Tac-Tao\obj\Debug\Tic-Tac-Tao.pdb
