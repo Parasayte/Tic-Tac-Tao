@@ -70,7 +70,7 @@
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.whowon = new System.Windows.Forms.Label();
+            this.winner = new System.Windows.Forms.Label();
             this.wining = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel5 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -126,7 +126,7 @@
             // 
             this.guna2CustomGradientPanel2.Controls.Add(this.label7);
             this.guna2CustomGradientPanel2.Controls.Add(this.label6);
-            this.guna2CustomGradientPanel2.Controls.Add(this.whowon);
+            this.guna2CustomGradientPanel2.Controls.Add(this.winner);
             this.guna2CustomGradientPanel2.Controls.Add(this.wining);
             this.guna2CustomGradientPanel2.Controls.Add(this.label5);
             this.guna2CustomGradientPanel2.Controls.Add(this.guna2CustomGradientPanel5);
@@ -186,16 +186,16 @@
             this.label6.TabIndex = 23;
             this.label6.Text = "made by selam";
             // 
-            // whowon
+            // winner
             // 
-            this.whowon.AutoSize = true;
-            this.whowon.BackColor = System.Drawing.Color.Transparent;
-            this.whowon.Font = new System.Drawing.Font("Cascadia Code", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.whowon.ForeColor = System.Drawing.Color.Crimson;
-            this.whowon.Location = new System.Drawing.Point(335, 447);
-            this.whowon.Name = "whowon";
-            this.whowon.Size = new System.Drawing.Size(0, 46);
-            this.whowon.TabIndex = 22;
+            this.winner.AutoSize = true;
+            this.winner.BackColor = System.Drawing.Color.Transparent;
+            this.winner.Font = new System.Drawing.Font("Cascadia Code", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.winner.ForeColor = System.Drawing.Color.Crimson;
+            this.winner.Location = new System.Drawing.Point(335, 447);
+            this.winner.Name = "winner";
+            this.winner.Size = new System.Drawing.Size(0, 46);
+            this.winner.TabIndex = 22;
             // 
             // wining
             // 
@@ -685,7 +685,7 @@
 
         private System.Windows.Forms.Label label6;
 
-        private System.Windows.Forms.Label whowon;
+        private System.Windows.Forms.Label winner;
 
         private System.Windows.Forms.Label wining;
 

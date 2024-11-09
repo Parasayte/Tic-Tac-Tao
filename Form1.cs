@@ -10,6 +10,7 @@ namespace Tic_Tac_Tao
         private int _p1;
         private int _p2;
         private int _draw;
+        
         public Form1()
         {
             InitializeComponent();
@@ -19,28 +20,16 @@ namespace Tic_Tac_Tao
         {
                   ResetFun();
                  wining.Text = "";
-                 whowon.Text = "";
+                 winner.Text = "";
         }
         private void ResetFun()
         {
-            t9.Text = string.Empty;
-            t8.Text = string.Empty;
-            t7.Text = string.Empty;
-            t1.Text = string.Empty;
-            t2.Text = string.Empty;
-            t3.Text = string.Empty;
-            t6.Text = string.Empty;
-            t5.Text = string.Empty;
-            t4.Text = string.Empty;
-            t1.Enabled = true;
-            t2.Enabled = true;
-            t3.Enabled = true;
-            t6.Enabled = true;
-            t5.Enabled = true;
-            t4.Enabled = true;
-            t9.Enabled = true;
-            t8.Enabled = true;
-            t7.Enabled = true;
+            Guna2Button[] buttons = {t1,t2,t3,t4,t5,t6,t7,t8,t9};
+            foreach (Guna2Button button in buttons)
+            {
+                button.Text=string.Empty;
+                button.Enabled = true;
+            }
            
             wining.Text = @"Won";
             wining.ForeColor = Color.DeepSkyBlue;
@@ -100,18 +89,18 @@ namespace Tic_Tac_Tao
                    ResetFun();
                     _p2++;
                     lbp2.Text = _p2.ToString();
-                    whowon.Visible = true;
-                    whowon.Text = @"O";
-                    whowon.ForeColor=Color.Indigo;
+                    winner.Visible = true;
+                    winner.Text = @"O";
+                    winner.ForeColor=Color.Indigo;
                 }
                 else
                 {
                     ResetFun();
                     _p1++;
                     lbp1.Text = _p1.ToString();
-                    whowon.Visible = true;
-                    whowon.Text = @"X";
-                    whowon.ForeColor=Color.Crimson;
+                    winner.Visible = true;
+                    winner.Text = @"X";
+                    winner.ForeColor=Color.Crimson;
                 }
                 ResetFun();
               
@@ -182,7 +171,7 @@ namespace Tic_Tac_Tao
                 ResetFun();
                 _draw++;
                 label3.Text = _draw.ToString();
-                whowon.Visible = false;
+                winner.Visible = false;
                 wining.Text = @"Draw";
                 wining.ForeColor = Color.DarkGray;
             }
