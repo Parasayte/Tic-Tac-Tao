@@ -16,7 +16,7 @@ A simple and fun Tic-Tac-Toe game built in C# with Windows Forms . This game all
 - **Score tracking**: Tracks the score for each player and the number of draws.
 - **Visual effects**: Color-coded turns and winner highlights.
 ## Screenshot 
-![screenshot](https://thumbs2.imgbox.com/8b/86/OAU8WpjG_t.jpg)
+![screenshot](https://i.imgur.com/G2E5ATY.png)
 
 
 ## Installation 🔧
