@@ -1,10 +1,7 @@
 ﻿using System;
-
 using System.Drawing;
-
 using System.Windows.Forms;
 using Guna.UI2.WinForms;
-
 namespace Tic_Tac_Tao
 {
     public partial class Form1 : Form
@@ -190,9 +187,19 @@ namespace Tic_Tac_Tao
                 wining.ForeColor = Color.DarkGray;
             }
         }
-        private void Form1_FormClosing_1(object sender, FormClosingEventArgs e)
+        private void label7_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label7_MouseEnter(object sender, EventArgs e)
+        {
+            label7.ForeColor=Color.Red;
+        }
+
+        private void label7_MouseLeave(object sender, EventArgs e)
+        {
+            label7.ForeColor=Color.Brown;
         }
     }
 }
