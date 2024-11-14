@@ -4,14 +4,14 @@ using System.Windows.Forms;
 using Guna.UI2.WinForms;
 namespace Tic_Tac_Tao
 {
-    public partial class Form1 : Form
+    public partial class threegrid : Form
     {
         bool _player1Turn = true;
         private int _p1;
         private int _p2;
         private int _draw;
         
-        public Form1()
+        public threegrid()
         {
             InitializeComponent();
         }
