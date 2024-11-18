@@ -16,7 +16,7 @@ namespace Tic_Tac_Tao
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fivegrid());
+            Application.Run(new threegrid());
         }
     }
 }
